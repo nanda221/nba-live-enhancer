@@ -22,9 +22,3 @@ sys.modules[__name__] = _const()
 class Obj:
     def __init__(self):
         self.a = 1
-
-
-b = Obj()
-b.b = 2
-print(b.b)
-
